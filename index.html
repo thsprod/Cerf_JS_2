@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus filmes favoritos</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="nav-left">
+                <img src="./assets/images/logo.svg" alt="my fav movies logo" width="87" height="64" id="image">
+                <ul class="navigation-items">
+                    <li id="#comedia">Comédia</li>
+                    <li id="#terror">Terror</li>
+                    <li id="#ação">Ação</li>
+                    <li id="#ficção">Ficção</li>
+                    <li id="#drama">Drama</li>
+                </ul>
+
+            </div>
+            <div class="nav-right">
+                <div class="button">
+                    <a href="https://github.com/thsprod" target="_blank">+ Me adicione</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="main-content">
+            <div class="main-info">
+                <h1 class="title">Procure por seu filme favorito</h1>
+                <h3 class="subtitle">Digite o nome do seu filme e veja o que temos sobre ele</h3>
+            </div>
+            <div class="main-search">
+                <div class="search-bar">
+                    <div class="search-select">
+                        <select name="search-select" id="search-select">
+                            <option value="movie">Filmes</option>
+                            <option value="series">Séries</option>
+                            <option value="episode">Episódios</option>
+
+
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Busque seu filme aqui" class="search-input">
+                    <div class="search-icon">
+                        
+                         <img src="./assets/icons/Vector.svg" alt="lupa, que significa buscar por um filme">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="results-area"></div>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+
+</body>
+
+</html>
