@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=VT323&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600&display=swap');
 
 body{
     background-color: #161819;
-    font-family: "Poppins", sans-serif;
+    font-family: "Palanquin Dark", sans-serif;
+    background-image: url("https://i.pinimg.com/originals/84/a4/7e/84a47eb76064ab2fc942d75adddcdf8f.jpg");
+    background-size: cover;
 }
 
 .container {   
@@ -35,7 +37,8 @@ body{
     margin: 0 10px;
     list-style: none;
     cursor: pointer;
-    font-size: 20px;        
+    font-size: 20px;
+    text-shadow: 5px 5px 10px black;       
 }
 
 @media screen and (max-width: 688px) {
@@ -72,6 +75,7 @@ body{
     border-radius: 10px;
     cursor: pointer;
     max-width: 100%;
+    text-shadow: 5px 5px 10px black;
 }
 
 @media screen and (max-width: 768px) {
@@ -112,6 +116,7 @@ body{
     text-align: center;
     font-size: 48px;
     font-weight: 600;
+    text-shadow: 5px 5px 10px black;
 }
 @media screen and (max-width: 768px) {
     .main-info .title{
@@ -143,7 +148,7 @@ body{
     text-align: center;
     font-weight: 500;
     font-size: 20px;
-    opacity: 0.5;           
+    text-shadow: 5px 5px 10px black;           
 }
 @media screen and (max-width: 768px) {
     .main-info .subtitle{
@@ -176,7 +181,8 @@ body{
     width: 100%;
     background-color: #252728;
     justify-content: space-between;
-    border-radius: 10px;       
+    border-radius: 10px;
+    opacity: 1.5;       
 }
 
 @media screen and (max-width: 768px) {
@@ -187,13 +193,13 @@ body{
     }
 }
 .search-select select{
-    background: linear-gradient(#F473A3,#FE5661);
+    background: linear-gradient(#FF2261,#fe8656);
     border: none;
     padding: 13px;
     margin: 10px 0px 10px 10px;
     color: white;
     border-radius: 10px;
-    font-family: "poppins", sans-seriff;
+    font-family: "Palanquin Dark", sans-seriff;
     font-weight: 500;
     background-color: #161819;
     
@@ -207,7 +213,7 @@ body{
     opacity: 0.5;
     margin-left: 10px;
     font-size: 18px;
-    font-family: "poppins" , sans-seriff;
+    font-family: "Palanquin Dark" , sans-seriff;
 }
 .search-input:focus, input:focus{
     outline: none;
@@ -226,7 +232,7 @@ body{
 .results-item{
     margin:10px;
     padding: 5px;
-    background-color: #080808;
+    background: linear-gradient(#FF2261,#fe8656);
     border-radius: 5px;
     text-align: center;
     color: white; 
@@ -262,7 +268,7 @@ body{
     opacity: 5;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #F7E01D;
+    background-color: #ffffff;
     opacity: 5.5;
 }
 
